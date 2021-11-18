@@ -5,10 +5,47 @@
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+    @media screen and (max-width: 481px){
+        div.text {
+            max-width:100%;
+            margin:auto;
+        }
+        }
+        
+        div.text {
+        margin-top:200px;
+        margin-left:auto;
+        margin-right:auto;
+        padding:25px;
+        width:500px;
+        box-sizing:border-box;
+        text-align:center;
+        border: 1px solid white;
+        word-break:normal;
+        line-height:25px;
+    }
+        a:link, a:visited {
+        color:white;
+        text-decoration:none;
+        border:1px solid white;
+        padding:0px;
+        background-color:black;
+        width:100px;
+        margin:5px;
+        display:inline-block;
+        line-height:30px;
+    }
+        
+    a:hover {
+        color:#666666;
+        border:1px solid #666666;
+        
+    }
     img {
         margin-left:auto;
         margin-right:auto;
     }
+    
     body {
         background-color:black;
         margin:auto;
@@ -17,6 +54,7 @@
         font-family: 'Raleway', sans-serif;
         font-size:14px;
     }
+        
     /* fade in animation */
 @keyframes fadeIn{
   0% {
@@ -67,39 +105,6 @@
         animation: fadeIn 1.0s ease forwards;
         
     }
-    
-    @media screen and (max-width: 481px){
-        div.text {
-            width:300px;
-        }
-        }
-        div.text {
-        margin-top:200px;
-        margin-left:auto;
-        margin-right:auto;
-        padding:25px;
-        width:500px;
-        box-sizing:border-box;
-        text-align:center;
-        border: 1px solid white;
-        word-break:normal;
-        line-height:25px;
-    }
-        a:link, a:visited {
-        color:white;
-        text-decoration:none;
-        border:1px solid white;
-        padding:0px;
-        background-color:black;
-        width:100px;
-        margin:5px;
-        display:inline-block;
-        line-height:30px;
-    }
-        
-    a:hover {
-        color:#666666;
-        border:1px solid #666666;
 </style>
 </head>
 
